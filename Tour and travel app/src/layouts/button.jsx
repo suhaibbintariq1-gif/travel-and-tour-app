@@ -1,13 +1,13 @@
 import React from "react";
 
-const Button = (props) => {
+const Button = ({ title, backgroundcolor }) => {
     return (
-        <div>
-            <button classname={'${props.backgroundcolor} text-black rounded-full px-8 font-medium hover:bg-[8482ff] hover:text-white active:bg-[#8482ff] active:text-white transition all duration-300'}>
-                {props.title}
-            </button>
-        </div>
-    )
+        <button
+            className={`rounded-full px-10 py-2 font-medium border-4 border-[#00b934] text-black transition-all duration-300 hover:bg-[#00b934] hover:text-white active:bg-[#00b934] active:text-white hover:border-white active:border-white ${backgroundcolor || "bg-white"}`}
+        >
+            {title}
+        </button>
+    );
 };
 
 export default Button;
