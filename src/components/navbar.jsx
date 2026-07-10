@@ -1,0 +1,56 @@
+import react, { useState } from 'react';
+import { Link } from "react-scroll"
+import Button from '../layouts/button.jsx';
+import { AiOutlineMenu } from "react-icons/ai";
+
+const Navbar = () => {
+
+    const backgroundcolor = 'bg-white';
+
+    const [menu, setMenu] = useState(false);
+
+    const handleChange = () => {
+        setMenu(!menu);
+    }
+    return (
+        <div>
+            <div className="flex flex-row justify-between p-5 md:px-32 px-5 bg-black 
+            text-white">
+                <div className="flex items-center">
+                    <Link>
+                        <h1 className='font-semibold text-xl cursor-pointer'>SBT trips</h1>
+                    </Link>
+                </div>
+                <nav className=" hidden lg:flex flex-row gap-6 items-center">
+                    <Link to="/" spy={true} smooth={true} duration={500} className="hover:text-green-500 transition duration-300 cursor-pointer"><h1>Home</h1></Link>
+                    <Link to="/" spy={true} smooth={true} duration={500} className="hover:text-green-500 transition duration-300 cursor-pointer"><h1>Features</h1></Link>
+                    <Link to="/" spy={true} smooth={true} duration={500} className="hover:text-green-500 transition duration-300 cursor-pointer"><h1>Destinations</h1></Link>
+                    <Link to="/" spy={true} smooth={true} duration={500} className="hover:text-green-500 transition duration-300 cursor-pointer"><h1>About</h1></Link>
+                    <Link to="/" spy={true} smooth={true} duration={500} className="hover:text-green-500 transition duration-300 cursor-pointer"><h1>Contact</h1></Link>
+                </nav>
+                <div className=" hidden lg:flex flex-row items-center gap-2">
+                    <h1 className="hover:text-green-500 transition duration-300 cursor-pointer">Register</h1>
+                    <Button title="Login" backgroundcolor={backgroundcolor} />
+                </div>
+                <div className=" lg:hidden flex items-center p-2" onClick= {handleChange}>
+                    <AiOutlineMenu size={25} />
+                </div>
+            </div>
+
+            <div className={` ${menu ? "translate-x-0" : "-translate-x-full"} lg:hidden  flex flex-col absolute bg-black text-neutral-50 left-0 top-20 font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-full h-fit transition-transform duration-300 `}>
+                <Link to="/" spy={true} smooth={true} duration={500} className="hover:text-green-500 transition duration-300 cursor-pointer"><h1>Home</h1></Link>
+                <Link to="/" spy={true} smooth={true} duration={500} className="hover:text-green-500 transition duration-300 cursor-pointer"><h1>Features</h1></Link>
+                <Link to="/" spy={true} smooth={true} duration={500} className="hover:text-green-500 transition duration-300 cursor-pointer"><h1>Destinations</h1></Link>
+                <Link to="/" spy={true} smooth={true} duration={500} className="hover:text-green-500 transition duration-300 cursor-pointer"><h1>About</h1></Link>
+                <Link to="/" spy={true} smooth={true} duration={500} className="hover:text-green-500 transition duration-300 cursor-pointer"><h1>Contact</h1></Link>
+                <div className=" flex flex-col lg:hidden lg:flex-row items-center gap-2">
+                    <h1 className="hover:text-green-500 transition duration-300 cursor-pointer">Register</h1>
+                    <Button title="Login" backgroundcolor={backgroundcolor} />
+                </div>
+            </div>
+
+        </div>
+    )
+};
+
+export default Navbar;
