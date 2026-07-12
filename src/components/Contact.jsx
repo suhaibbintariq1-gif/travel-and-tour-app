@@ -12,7 +12,7 @@ const Contact = () => {
           <div className=" flex flex-col">
             <label htmlFor="userName">Full Name</label>
             <input
-              className=" py-3 px-2 rounded-lg hover:shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] transition-all"
+              className=" py-3 px-2 rounded-lg hover:shadow-[rgba(0,0,0,0.24)_0px_3px_8px] transition-all"
               type="text"
               name="userName"
               id="userName"
@@ -22,7 +22,7 @@ const Contact = () => {
           <div className=" flex flex-col">
             <label htmlFor="userEmail">Email</label>
             <input
-              className=" py-3 px-2 rounded-lg hover:shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] transition-all"
+              className=" py-3 px-2 rounded-lg hover:shadow-[rgba(0,0,0,0.24)_0px_3px_8px] transition-all"
               type="email"
               name="userEmail"
               id="userEmail"
@@ -32,7 +32,7 @@ const Contact = () => {
           <div className=" flex flex-col">
             <label htmlFor="userMessage">Message</label>
             <textarea
-              className=" py-3 px-2 rounded-lg hover:shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] transition-all"
+              className=" py-3 px-2 rounded-lg hover:shadow-[rgba(0,0,0,0.24)_0px_3px_8px] transition-all"
               name="userMessage"
               id="userMessage"
               cols="30"
