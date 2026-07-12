@@ -13,7 +13,7 @@ const Navbar = () => {
   const backgroundColor = `bg-white`;
 
   return (
-    <div classname="bg-black text-white">
+    <div className="bg-black text-white">
       <div className=" flex flex-row justify-between p-5 md:px-32 px-5 bg-black text-white">
         <div className=" flex items-center ">
           <Link to="/" spy={true} smooth={true} duration={500}>
