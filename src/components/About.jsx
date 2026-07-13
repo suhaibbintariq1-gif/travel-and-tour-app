@@ -1,6 +1,6 @@
 import React from "react";
 import img from "../assets/about.jpg";
-import Button from "../layouts/Button";
+import Button from "../layouts/button";
 import { Link } from "react-scroll";
 
 const About = () => {

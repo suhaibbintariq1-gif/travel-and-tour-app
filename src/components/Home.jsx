@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "../layouts/Button";
+import Button from "../layouts/button";
 import img from "../assets/hero.jpg";
 import { Link } from "react-scroll";
 

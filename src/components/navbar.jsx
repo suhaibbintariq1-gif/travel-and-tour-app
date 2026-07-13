@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
-import Button from "../layouts/Button";
+import Button from "../layouts/button";
 import { AiOutlineMenu } from "react-icons/ai";
 
 const Navbar = () => {

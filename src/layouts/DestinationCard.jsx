@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "../layouts/Button";
+import Button from "../layouts/button";
 
 const DestinationCard = (props) => {
   const backgroundColor = `bg-brightColor`;
