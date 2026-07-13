@@ -6,10 +6,10 @@ import pic3 from "../assets/wallet.png";
 
 const Features = () => {
   return (
-    <div className=" min-h-screen w-full flex bg-black text-white flex-row gap-14 items-center p-20">
+    <div className=" min-h-screen flex flex-col text-white justify-center bg-black lg:flex-row items-center md:px-32 px-5 bg-darkBackground gap-10">
       <div className=" w-full lg:w-2/4">
-        <div className=" space-y-4 text-white">
-          <h1 className=" text-4xl font-medium text-center text-white md:text-start leading-tight">
+        <div className=" space-y-4">
+          <h1 className=" text-4xl font-medium text-center md:text-start leading-tight">
             Get Ready to Explore, Get Ready to Experience!
           </h1>
           <p>
@@ -22,7 +22,7 @@ const Features = () => {
 
         <div className="w-full lg:w-3/5 mt-10 lg:ml-14">
           <img
-            className="rounded-xl shadow-lg shadow-cyan-700/70"
+            className=" rounded-xl shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)]"
             src={img}
             alt="img"
           />

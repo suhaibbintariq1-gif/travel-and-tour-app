@@ -8,9 +8,9 @@ const Footer = () => {
     <div className="bg-black text-white">
       <div className="flex flex-col md:flex-row justify-between p-8 md:px-32 px-5">
         <div className=" w-full md:w-1/4">
-          <h1 className=" font-semibold text-xl pb-4">TripPixie</h1>
+          <h1 className=" font-semibold text-xl pb-4">SBT TRIPS</h1>
           <p className=" text-sm">
-            With TripPixie you can experience new travel and the best tourist
+            With SBT TRIPS you can experience new travel and the best tourist
             destinations that we have to offer
           </p>
         </div>
@@ -83,8 +83,8 @@ const Footer = () => {
       <div>
         <p>
           <p className=" text-center py-4">
-            @copyright developed by
-            <span className=" text-brightColor"> champion programmers</span> | All
+            Developed by
+            <span className=" text-brightColor"> Suhaib bin tariq</span> | All
             rights reserved
           </p>
         </p>

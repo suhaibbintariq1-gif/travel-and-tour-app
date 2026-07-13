@@ -17,7 +17,7 @@ const Navbar = () => {
       <div className=" flex flex-row justify-between p-5 md:px-32 px-5 bg-black text-white">
         <div className=" flex items-center ">
           <Link to="/" spy={true} smooth={true} duration={500}>
-            <h1 className=" font-semibold text-xl cursor-pointer ">TripPixie</h1>
+            <h1 className=" font-semibold text-xl cursor-pointer ">SBT TRIPS</h1>
           </Link>
         </div>
         <nav className="hidden lg:flex flex-row items-center gap-6 ">
@@ -85,7 +85,7 @@ const Navbar = () => {
       <div
         className={` ${
           menu ? "translate-x-0" : "-translate-x-full"
-        } lg:hidden flex flex-col absolute bg-darkBackground text-white left-0 top-20 font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-full h-fit transition-transform duration-300`}
+        } lg:hidden flex flex-col absolute bg-black text-white left-0 top-20 font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-full h-fit transition-transform duration-300`}
       >
         <Link
           to="home"
