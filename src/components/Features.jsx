@@ -6,14 +6,14 @@ import pic3 from "../assets/wallet.png";
 
 const Features = () => {
   return (
-    <div className=" min-h-screen flex flex-col text-white justify-center bg-black lg:flex-row items-center md:px-32 px-5 bg-darkBackground gap-10">
+    <div className=" min-h-screen flex flex-col text-white justify-center bg-black lg:flex-row items-center md:px-32 p-10 px-5 bg-darkBackground gap-10">
       <div className=" w-full lg:w-2/4">
         <div className=" space-y-4">
           <h1 className=" text-4xl font-medium text-center md:text-start leading-tight">
             Get Ready to Explore, Get Ready to Experience!
           </h1>
           <p>
-            Discover the Best Holiday Experiences with TripPixie! We're
+            Discover the Best Holiday Experiences with SBT TRIPS! We're
             dedicated to curating the latest and greatest destinations from
             around the world, ensuring you always get the ultimate travel
             experience.
