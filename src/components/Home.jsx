@@ -13,7 +13,7 @@ const Home = () => {
           Discover the Best Destinations
         </h1>
         <p>
-          With SBT TRIPS you can experience new travelwith our best guiders and the best tourist
+          With SBT TRIPS you can experience new travel with our best guiders and the best tourist
           destinations that we have to offer!
         </p>
 
