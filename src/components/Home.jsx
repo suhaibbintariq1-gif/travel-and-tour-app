@@ -14,7 +14,7 @@ const Home = () => {
         </h1>
         <p>
           With SBT TRIPS you can experience new travel with our best guiders and the best tourist
-          destinations that we have to offer!
+          destinations
         </p>
 
         <div className=" lg:pl-24">
